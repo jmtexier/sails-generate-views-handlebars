@@ -1,0 +1,33 @@
+{
+  "name": "sails-generate-views-handlebars",
+  "version": "0.10.1",
+  "description": "Generate default handlebars views for Sails.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "views",
+    "generator",
+    "sails",
+    "handlebars",
+    "generate",
+    "plugin"
+  ],
+  "author": "jmtexier",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "views-handlebars",
+    "behavior": "overrides `sails generate views-handlebars`",
+    "sailsVersion": "~0.10.0"
+  }
+}
