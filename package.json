@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-views-handlebars",
-  "version": "0.10.1",
+  "version": "0.10.4",
   "description": "Generate default handlebars views for Sails.",
   "main": "lib/index.js",
   "scripts": {
